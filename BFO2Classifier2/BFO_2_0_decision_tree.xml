@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<tree>
+	<title>BFO 2.0 Decision Tree</title>
+	<descrption>Decision Tree for BFO 2.0</descrption>
+	<branch id="1">
+		<content>Is [] present at different times (the whole object (not only some of its parts), or is it occurring in time? </content>
+		<fork target="1.1">Persist in time; e.g., a ball</fork>
+		<fork target="1.2">Occurs in time; e.g., kicking</fork>
+		<concept>Entity</concept>
+	</branch>
+	<branch id="1.1">
+		<concept>Continuant</concept>
+		<content> Can [] exist on its own or is [] a property of another entity or depends on at least 1 other entity (a bearer)?   </content>
+		<fork target="1.1.1">Exist on its own; e.g., a sandwich</fork>
+		<fork target="1.1.2">Dependent on another; e.g., the scent of a perfume</fork>
+	</branch>
+	<branch id="1.1.1">
+		<concept>Independent Continuant</concept>
+		<content>Does [] always have some matter (space and mass) as a part that persists in time?</content>
+		<fork target="1.1.1.1">Never; e.g., a cavity in a tooth</fork>
+		<fork target="1.1.1.2">Always; e.g., a coffee mug</fork>
+	</branch>
+	<branch id="1.1.1.1">
+		<concept>Immaterial Entity</concept>
+		<content>Is [] bounded, partially or wholly, by a material entity or is it a portion in space? </content>
+ 		<fork target="1.1.1.1.1">Bounded; e.g., the cavity of a tooth</fork>
+		<fork target="1.1.1.1.2">A portion; e.g., a point in space</fork>
+	</branch>
+	<branch id="1.1.1.1.1">
+		<content>How many dimensions does [] have?</content>
+		<fork target="1.1.1.1.1.1">0-2</fork>
+		<fork target="1.1.1.1.1.2">3; e.g., the cavity of a tooth</fork>
+	</branch>
+	<branch id="1.1.1.1.1.1">
+		<concept>Continuant Fiat Boundary</concept>
+		<content>How many dimensions does [] have?</content>
+		<fork target="1.1.1.1.1.1.1">0; e.g., the point where Egypt, Libya, and Sudan meets is a 0D continuant fiat boundary</fork>
+		<fork target="1.1.1.1.1.1.2">1; e.g., the border between Namibia and Zimbabwe is a 1D continuant fiat boundary</fork>
+		<fork target="1.1.1.1.1.1.3">2; e.g., the side of a cube, the surface of a sweater are 2D continuant  fiat boundaries</fork>
+	</branch>
+	<branch id="1.1.1.1.1.1.1">
+		<concept>Zero-dimensional Continuant Boundary</concept>
+	</branch>
+	<branch id="1.1.1.1.1.1.2">
+		<concept>One-dimensional Continuant Fiat Boundary</concept>
+	</branch>
+	<branch id="1.1.1.1.1.1.3">
+		<concept>Two-dimensional Continuant Fiat Boundary</concept>
+	</branch>
+	<branch id="1.1.1.1.1.2">
+		<concept>Site</concept>
+	</branch>
+	<branch id="1.1.1.1.2">
+		<content>Is the [] a spatial projection of a portion of space-time?</content>
+		<fork target="1.1.1.1.2.1">Yes; e.g., the space occupied by a bed</fork>
+	</branch>
+	<branch id="1.1.1.1.2.1">
+		<concept>Spatial Region</concept>
+		<content>How many dimensions does [] have?</content>
+		<fork target="1.1.1.1.2.1.1">0; e.g., a point in space</fork>
+		<fork target="1.1.1.1.2.1.2">1; e.g., an edge of a cubed space portion in space</fork>
+			<fork target="1.1.1.1.2.1.3">2; e.g., the surface 
+	of a sphere-shaped part of space</fork>
+		<fork target="1.1.1.1.2.1.4">3; e.g., a sphere-shaped region of space</fork>
+	</branch>
+	<branch id="1.1.1.1.2.1.1">
+		<concept>Zero-dimensional Spatial Region</concept>
+	</branch>
+	<branch id="1.1.1.1.2.1.2">
+		<concept>One-dimensional Spatial Region</concept>
+	</branch>
+	<branch id="1.1.1.1.2.1.3">
+		<concept>Two-dimensional Spatial Region</concept>
+	</branch>
+	<branch id="1.1.1.1.2.1.4">
+		<concept>Three-dimensional Spatial Region</concept>
+	</branch>
+	<branch id="1.1.1.2">
+		<concept>Material Entity</concept>
+		<content>Is [] a collection of disjoint self-standing single objects?</content>
+		<fork target="1.1.1.2.1">Yes; e.g., pack of lions, a collection of marbles</fork>
+		<fork target="1.1.1.2.2">No</fork>
+	</branch>
+	<branch id="1.1.1.2.1">
+		<concept>Object Aggregate</concept>
+	</branch>
+	<branch id="1.1.1.2.2">
+		<content>Is [] a proper part of an object, rather than a member of?</content>
+		<fork target="1.1.1.2.2.1">Yes; e.g., the upper portion of a cake</fork>
+		<fork target="1.1.1.2.2.2">No; e.g., a plate</fork>
+	</branch>
+	<branch id="1.1.1.2.2.1">
+		<concept>Fiat Object Part</concept>
+	</branch>
+	<branch id="1.1.1.2.2.2">
+		<concept>Object</concept>
+	</branch>
+	<branch id="1.1.2">
+		<content>May [] be shared/copied between a number of bearers?</content>
+		<fork target="1.1.2.1">Yes; e.g., mp4 video file of Star Trek on the computer (bearer)</fork>
+		<fork target="1.1.2.2">No; e.g., the role of a reader that cannot be shared among humans (bearer)</fork>
+	</branch>
+	<branch id="1.1.2.1">
+		<concept>Generically Dependent Continuant</concept>
+	</branch>
+	<branch id="1.1.2.2">
+		<concept>Specifically Dependent Continuant</concept>
+		<content>Does [] require some further process to be realised?</content>
+		<fork target="1.1.2.2.1">Yes; e.g., the researcher has to do research</fork>
+		<fork target="1.1.2.2.2">No; e.g., the colour of the berry</fork>
+	</branch>
+	<branch id="1.1.2.2.1">
+		<concept>Realizable Entity</concept>
+		<content>Does [] exist because the bearer is in a specific situation?</content>
+		<fork target="1.1.2.2.1.1">Yes; e.g., a professor </fork>
+		<fork target="1.1.2.2.1.2">No; e.g., a person has a disposition to anemia</fork>
+	</branch>
+	<branch id="1.1.2.2.1.1">
+		<concept>Role</concept>
+	</branch>
+	<branch id="1.1.2.2.1.2">
+		<concept>Disposition</concept>
+		<content>Does [] exist (by evolution or design) to realise specific processes?</content>
+		<fork target="1.1.2.2.1.2.1">Yes; e.g., writing function: the function of a pen to write</fork>
+	</branch>
+	<branch id="1.1.2.2.1.2.1">
+		<concept>Function</concept>
+	</branch>
+	<branch id="1.1.2.2.2">
+		<concept>Quality</concept>
+		<content>Does [] require at least 2 bearers to exist?</content>
+		<fork target="1.1.2.2.2.1">Yes; e.g., the family history where the 2 bearers are the patient and the family</fork>
+	</branch>
+	<branch id="1.1.2.2.2.1">
+		<concept>Relational Quality</concept>
+	</branch>
+	<branch id="1.2">
+		<concept>Occurrent</concept>
+		<content>What is []'s relation to the universal spatiotemporal region?</content>
+		<fork target="1.2.1">That what happens during
+that time (inhabits); e.g., the process of stirring a drink</fork>
+		<fork target="1.2.2">[] is a portion of space and time (portion of); e.g., the spatiotemporal region occupied by a pet</fork>
+		<fork target="1.2.3">[] is a 
+part of time (projection of); e.g., the hours of rolling blackouts</fork>
+	</branch>
+	<branch id="1.2.1">
+		<content> Is [] the boundary of what is occurring? </content>
+		<fork target="1.2.1.1">Yes; e.g., the first or last
+step of a Kizomba dancing session</fork>
+		<fork target="1.2.1.2">No; e.g., the process of dancing  during a Kizomba dancing session</fork>
+	</branch>
+<branch id="1.2.1.1">
+<concept>Process Boundary</concept>
+</branch>
+	<branch id="1.2.1.2">
+		<concept>Process</concept>
+		<content>Does [] describe a process whereby there has been a substantial change?</content>
+		<fork target="1.2.1.2.1">Yes</fork>
+	</branch>
+<branch id="1.2.1.2.1">
+		<content>Does [] describe the rate of change or the actual changes that are occurring?</content>
+		<fork target="1.2.1.2.1.1">Change; e.g., urbanisation</fork>
+		<fork target="1.2.1.2.1.2">Rate of change; e.g., rate of urbanisation in South Africa</fork>
+	</branch>
+<branch id="1.2.1.2.1.1">
+		<concept>History</concept>
+	</branch>
+	<branch id="1.2.1.2.1.2">
+		<concept>Process profile</concept>
+	</branch>
+	<branch id="1.2.2">
+		<concept>Spatiotemporal Region</concept>
+	</branch>
+	<branch id="1.2.3">
+		<concept>Temporal Region</concept>
+		<content>Is [] a moment or does it take longer?</content>
+		<fork target="1.2.3.1">A moment; e.g., the moment the
+electricity switches off</fork>
+		<fork target="1.2.3.2">Longer; e.g., the duration  of a Kizomba dancing session</fork>
+	</branch>
+	<branch id="1.2.3.1">
+		<concept>Zero-dimensional Temporal Region</concept>
+	</branch>
+	<branch id="1.2.3.2">
+		<concept>One-dimensional Temporal Region</concept>
+	</branch>
+</tree>
